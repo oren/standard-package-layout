@@ -1,5 +1,12 @@
 package myapp
 
+type Address struct {
+	country string
+	state   string
+	City    string
+	Street  string
+}
+
 type User struct {
 	ID      int
 	Name    string

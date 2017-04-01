@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/benbjohnson/myapp/mock"
+	"github.com/oren/standard-package-layout/mock"
 )
 
 func TestHandler(t *testing.T) {
